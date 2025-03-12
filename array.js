@@ -47,44 +47,44 @@
 
 // array data structure input 
 
-// // array access 
-// console.log(arr[0])
-// console.log(arr[1])
-// console.log(arr[2])
-// console.log(arr[3])
-// console.log(arr[4])
-// console.log(arr[5])
-// console.log(arr[6])
-// console.log(arr[7])
-// console.log(arr[8])
-// console.log(arr[9])
+let arr = [100,  30, 504, 234, 44, 44,600]; // Example array
+// array access 
+console.log(arr[0])
+console.log(arr[1])
+console.log(arr[2])
+console.log(arr[3])
+console.log(arr[4])
+console.log(arr[5])
+console.log(arr[6])
+console.log(arr[7])
+console.log(arr[8])
+console.log(arr[9])
 
 // // data update
 
-// arr[0]=100
-// arr[1]=200;
-// arr[2]=300;
-// arr[3]=110;
-// console.log(arr)
+arr[0]=100
+arr[1]=200;
+arr[2]=300;
+arr[3]=110;
+console.log(arr)
 
-// // delete 
-// delete arr[0];
-// delete arr[1];
-// console.log(arr)
+// delete 
+delete arr[0];
+delete arr[1];
+console.log(arr)
 
-// // add start 
-// arr.unshift(100)
-// arr.unshift(200)
-// console.log(arr)
+// add start 
+arr.unshift(100)
+arr.unshift(200)
+console.log(arr)
 
-// // add end
+// add end
 
-// arr.push(400)
-// arr.push(800)
-// console.log(arr)
+arr.push(400)
+arr.push(800)
+console.log(arr)
 
 
-let arr = [100,  30, 504, 234, 44, 44,600]; // Example array
     let max=arr[0];
      let min=arr[0]
    // Calculate the sum of the array
